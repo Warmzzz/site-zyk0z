@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-box {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #6441a5;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.pres-area {
+	width: 100%;
+	height: 400px;
+	position: fixed;
+    top: 100px;
+    background-image: url(https://media.discordapp.net/attachments/761684040255275040/778292083617955850/profile.png);
+	-webkit-background-size: cover;
+	background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pres-area h4 {
+	padding-top: 8%;
+	font-size: 40px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #6441a5;
+}
+
+.pres-area h5 {
+    font-family: 100px;
+}
+
+.icon-infos {
+    padding-top: 8%;
+	font-size: 40px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #6441a5;
+}
+
+.iconettv {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+	height: auto;
+}
+
+.iconeytb {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+	height: auto;
+}
+
+.icon-infos {
+    display:list-item;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6441a5;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+    height: 58px;
+    font-size: 20px;
+    font-weight: 1px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
